@@ -1,0 +1,21 @@
+.thumbnail {
+  background-image: url(../public/top.png);
+  background-size: auto;
+  background-position: center center;
+  height: 500px;
+  position: relative;
+}
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 5px red;
+  padding: 10px;
+  border: lightgrey 1px solid;
+  border-radius: 10px;
+  backdrop-filter: blur(2px);
+}
