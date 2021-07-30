@@ -1,8 +1,8 @@
 .thumbnail {
-  background-image: url(../public/top.png);
+  /* background-image: url(../public/top.png);
   background-size: auto;
-  background-position: center center;
-  height: 500px;
+  background-position: center center; */
+  /* height: 500px; */
   position: relative;
 }
 .title {
