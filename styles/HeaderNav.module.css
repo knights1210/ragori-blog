@@ -1,5 +1,5 @@
 .navbar {
-  background-color: lightpink;
+  background-color: rgb(255, 225, 229);
   color: white;
 }
 .container {
@@ -18,5 +18,5 @@
   display: flex;
   font-weight: bold;
   list-style: none;
-  
+  text-shadow: 1px 1px 5px red;
 }

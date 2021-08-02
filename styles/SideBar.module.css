@@ -1,0 +1,29 @@
+.sidebar {
+  min-width: 300px;
+  background-color: white;
+  box-shadow: 0 0 1rem lightpink;
+  border-radius: 10px;
+  margin: 4rem auto;
+  color: #6e6e6e;
+  padding: 1rem;
+}
+.category {
+  min-height: 300px;
+}
+.category > h2 {
+  text-align: center;
+}
+.archive {
+  min-height: 300px;
+}
+.archive > h2 {
+  text-align: center;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex > h2 {
+  margin-left: 1rem;
+}

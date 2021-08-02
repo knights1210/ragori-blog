@@ -17,17 +17,17 @@ export default function HeaderNav() {
             <ul className={Styles.navlist}>
               <li>
                 <Link href="#">
-                  <a>MENU</a>
+                  <a>MENU<Image src="/icon/icon9.png" width={25} height={20} alt=""/></a>
                 </Link>
               </li>
               <li>
                 <Link href="#">
-                  <a>MENU</a>
+                  <a>MENU<Image src="/icon/icon7.png" width={25} height={20} alt=""/></a>
                 </Link>
               </li>
               <li>
                 <Link href="#">
-                  <a>MENU</a>
+                  <a>MENU<Image src="/icon/icon8.png" width={25} height={20} alt=""/></a>
                 </Link>
               </li>
             </ul>
@@ -37,7 +37,7 @@ export default function HeaderNav() {
       <style jsx>
         {`
           li {
-            margin-right: 20px;
+            margin-right: 2rem;
             background: linear-gradient(transparent 90%, red 10%);
             background-size: 0%;
             background-position: left bottom;

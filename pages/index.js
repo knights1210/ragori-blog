@@ -5,6 +5,7 @@ import HeadMeta from "../components/Head.jsx";
 import HeaderNav from "../components/HeaderNav";
 import Thumbnail from "../components/thumbnail";
 import Body from "../components/Body";
+import SideBar from "../components/SideBar";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Thumbnail />
       <div className={Styles.container}>
         <Body />
+        <SideBar />
       </div>
     </>
   );
